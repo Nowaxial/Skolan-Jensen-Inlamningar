@@ -27,14 +27,13 @@ addBtn.addEventListener("click", function() {
     var deletebtn = document.createElement("button");
     var txt = document.createTextNode("\u00D7");
     deletebtn.className = "delete";
-    //deletebtn.setAttribute("class","delete");
     deletebtn.appendChild(txt);
     makeLi.appendChild(deletebtn); 
     
 
     deletebtn.addEventListener("click", () => {
     var list = document.getElementById("list");  
-    list.removeChild(list.childNodes[0]);      // Remove <ul>'s first child node (index 0)
+    list.removeChild(list.childNodes[0]);      
     });
 
 
