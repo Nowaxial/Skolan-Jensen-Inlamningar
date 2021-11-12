@@ -1,0 +1,63 @@
+/*Här skriver ni css*/
+
+    li:hover > button{
+    display:block;
+    float: right;
+    margin-left: 0.7em;
+    background-color:rgb(248, 186, 53);
+    }
+    
+    ul{
+        float: left;
+        list-style-position: inside;   
+        margin-top: 35px;
+        list-style-type: square;
+    
+    
+        background:rgb(255, 255, 255);  
+    }
+    
+    .delete{
+        display: none;
+    }
+    
+    h2{
+        text-align: center;
+        color: darkcyan;
+    }
+    
+    
+    body{
+        background-color: lightgrey;
+    }
+    
+    div{
+        text-align: center;
+        height: auto;
+        width: auto;
+        border-radius: 100px;
+    }
+    
+    li::marker {
+      color:rgb(223, 24, 57);
+      
+    }
+    
+    ul li {
+        background:rgb(189, 247, 255);
+        margin: 10px;
+        /*box-shadow: 0 0 2px 1px black;*/
+    
+    }
+    
+    #list {
+        
+        text-align: left;
+        padding: 20px;  
+        border: 2px solid;
+        height: auto;
+        width: auto;
+        box-sizing:content-box;
+        
+    }
+    
