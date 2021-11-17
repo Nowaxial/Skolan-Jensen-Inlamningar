@@ -35,12 +35,12 @@ function buttonAction5() {
   num1 = document.getElementById("number1").value;
   num2 = document.getElementById("number2").value;
   if(num1 >= 0 && num2 >= 0 && num1<= 1000 && num2 <= 1000){
-  document.getElementById("result5").innerHTML = num1 + num2;} 
+  document.getElementById("result5").innerHTML = num1 * num2;} 
   else{
   alert("Tyvärr! Du får bara använda siffror mellan 0 - 1000")
   };
-  document.getElementById("result5").innerHTML = num1 * num2;
 }// Slut!
+
 
 // Uppgift 1a6 här:
 function buttonAction6() {
